@@ -89,18 +89,4 @@ If you need to reset the system:
 3. Restart the server
 4. Setup options will appear again on first visit
 
-## Project Structure
 
-\`\`\`
-├── app/                    # Next.js app directory
-│   ├── admin/             # Admin dashboard
-│   ├── api/               # API routes
-│   ├── file-grievance/    # Grievance submission
-│   ├── login/             # Login page
-│   ├── my-grievances/     # User grievances
-│   ├── register/          # Registration page
-│   └── setup/             # Setup page (only when needed)
-├── components/            # Reusable components
-├── contexts/              # React contexts
-├── lib/                   # Utility functions and data store
-└── data/                  # JSON data files (created at runtime)
